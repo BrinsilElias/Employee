@@ -1,0 +1,132 @@
+/* Layout */
+.sidebar {
+    width: 300px;
+    height: 100vh;
+    background-color: var(--clr-background-100);
+    padding: 1rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Sidebar Header */
+.sidebar-item {
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.3rem;
+}
+
+.logo {
+    width: 30px;
+    aspect-ratio: 1;
+    background-image: url("../CompanyLogo.png");
+    background-position: center;
+    background-size: cover;
+}
+
+/* Sidebar Body */
+.sidebar-body {
+    margin-top: 2rem;
+    display: grid;
+    gap: 1rem;
+}
+
+.sidebar-body > .sidebar-item:hover {
+  background-color: var(--clr-hover);
+}
+
+.home-logo {
+    width: 20px;
+    aspect-ratio: 1;
+    background-image: url("../icons/home-line.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.dashboard-logo {
+    width: 20px;
+    aspect-ratio: 1;
+    background-image: url("../icons/chart-breakout-square.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.project-logo {
+    width: 20px;
+    aspect-ratio: 1;
+    background-image: url("../icons/coins-stacked-01.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.tasks-logo {
+    width: 20px;
+    aspect-ratio: 1;
+    background-image: url("../icons/check-done-01.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.reporting-logo {
+    width: 20px;
+    aspect-ratio: 1;
+    background-image: url("../icons/pie-chart-03.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.customers-logo {
+    width: 20px;
+    aspect-ratio: 1;
+    background-image: url("../icons/user-circle.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+/* Sidebar Footer */
+.sidebar-footer {
+    display: grid;
+    gap: 1rem;
+}
+
+.sidebar-footer > .sidebar-item:hover {
+  background-color: var(--clr-hover);
+}
+
+.notifications-logo {
+    width: 20px;
+    aspect-ratio: 1;
+    background-image: url("../icons/bell-03.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.support-logo {
+    width: 20px;
+    aspect-ratio: 1;
+    background-image: url("../icons/message-chat-circle.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.settings-logo {
+    width: 20px;
+    aspect-ratio: 1;
+    background-image: url("../icons/settings-03.svg");
+    background-position: center;
+    background-size: cover;
+}
+
+.avatar {
+    width: 38px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: hsla(263, 70%, 50%, 0.5);
+    color: var(--clr-background-100);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
