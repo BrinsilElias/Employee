@@ -59,8 +59,8 @@ If the installation was successful, you should be able to run the following comm
 ## ⚙️ Install
 After installing node and npm run the following commands to clone the repo and install all the dependencies that is used for this application.
 
-    $ git clone https://github.com/BrinsilElias/EmployeeDb
-    $ cd EmployeeDb
+    $ git clone https://github.com/BrinsilElias/Employee.git
+    $ cd Employee
     $ npm install
 
 ##  Running the project
